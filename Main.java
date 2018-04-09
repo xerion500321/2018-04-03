@@ -12,7 +12,7 @@ public class Main {
         while (x) {
             System.out.println("輸入資料請按1");
             System.out.println("修改資料請按2");
-            System.out.println("移除資料請按3");
+            System.out.println("資料請按3");
             System.out.println("顯示資料請按4");
             System.out.println("結束請按5");
             int s = scn.nextInt();
@@ -78,7 +78,7 @@ public class Main {
                     break;
                 case 5:
                     x = false;
-                    System.out.println("歡迎您本次的使用!");
+                    System.out.println("謝謝您本次的使用!");
             }
         }
     }
